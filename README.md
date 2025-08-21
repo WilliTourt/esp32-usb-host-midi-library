@@ -4,6 +4,8 @@
 
 **An easy-to-use library that turns your ESP3S3 into a USB Host MIDI, inspired by the Japanese concept of "OMOCHA" — a toy.**
 
+Please also refer to my project page on [Hackster.io](https://www.hackster.io/ndenki/esp32-usb-host-midi-library-032d95).
+
 Many people probably feel the same — USB MIDI devices often feel like silent boxes without a PC. With traditional serial MIDI, connecting to a synth produces sound right away. But USB MIDI isn't that simple. This library solves that problem.
 
 By acting as a USB Host, an ESP3S3 can receive USB MIDI data, process it, and send out converted serial MIDI to a synthesizer, enabling sound generation without a PC. This project was created to make that process as simple and playful as picking up a new toy.
