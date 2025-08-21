@@ -160,11 +160,13 @@ This project includes handy Python scripts in the `utility` folder to make devel
 
 While manual copy-pasting is reliable, you can use the provided Python script to create a perfectly formatted ZIP file for the Arduino IDE's "Add .ZIP Library..." feature.
 
+> Please move to the `utility` folder and run the Python script.
+
 **The biggest advantage:** Once installed this way, you can access all examples directly from the `File > Examples` menu in the Arduino IDE, with no need for copy-pasting!
 
 1.  **Run the script:**
     ```bash
-    python utility/create_arduino_lib.py
+    python create_arduino_lib.py
     ```
     This will create a distributable ZIP file in a new `release` directory.
 
@@ -195,8 +197,8 @@ This utility is compatible with both Arduino IDE and PlatformIO.
 2.  **Set Credentials**: There are a few ways to set your Wi-Fi credentials:
     -   **Easy:** Set them from within your sketch using a function. See the Wi-Fi examples for details.
     -   **Convenient:** To avoid retyping credentials for every sketch, you can directly edit the `WIFI_SSID` and `WIFI_PASSWORD` definitions in `src/wifi_logger.h`.
-    -   **Advanced:** For security-conscious users, run the `utility/set_wifi.py` script to keep credentials separate from your source code.
-3.  **Receive Logs**: On your PC, run `python utility/wifi_logger.py` to view the debug output. For Windows users, you can simply double-click `wifi_logger.bat`.
+    -   **Advanced:** For security-conscious users, run the `set_wifi.py` script to keep credentials separate from your source code.
+3.  **Receive Logs**: On your PC, run `python wifi_logger.py` to view the debug output. For Windows users, you can simply double-click `wifi_logger.bat`.
     -   When the ESP3S3 successfully connects to your Wi-Fi, you will see a message like this in your terminal:
         ```
         Logger initialized. IP: 192.168.1.123
@@ -212,8 +214,8 @@ This utility is compatible with both Arduino IDE and PlatformIO.
 
 This script simplifies switching between examples in a PlatformIO project.
 
--   **List all available examples:** `python utility/pick_example.py --list`
--   **Switch to a different example:** `python utility/pick_example.py 3 --run`
+-   **List all available examples:** `python pick_example.py --list`
+-   **Switch to a different example:** `python pick_example.py 3 --run`
 
 ---
 
