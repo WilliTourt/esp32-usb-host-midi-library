@@ -1,3 +1,8 @@
+/*
+ * ESP32 USB MIDI Host Library (ESP32 USB MIDI Omocha)
+ * Copyright (c) 2025 ndenki
+ * https://github.com/enudenki/esp32-usb-host-midi-library.git
+ */
 #ifndef USBMIDI_H
 #define USBMIDI_H
 

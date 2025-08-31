@@ -158,11 +158,12 @@ Here is a brief overview of the available examples to help you get started.
 
 This project includes handy Python scripts in the `utility` folder to make development easier. **Using these scripts requires Python 3.x.**
 
+> Please move to the `utility` folder and run the Python script.
+
 ### A Smarter Way to Install (for Arduino IDE)
 
 While manual copy-pasting is reliable, you can use the provided Python script to create a perfectly formatted ZIP file for the Arduino IDE's "Add .ZIP Library..." feature.
 
-> Please move to the `utility` folder and run the Python script.
 
 **The biggest advantage:** Once installed this way, you can access all examples directly from the `File > Examples` menu in the Arduino IDE, with no need for copy-pasting!
 
