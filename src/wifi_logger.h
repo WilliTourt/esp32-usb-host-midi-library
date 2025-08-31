@@ -33,7 +33,7 @@ THE SOFTWARE.
 
 #if DEBUG_WIFI
 
-// You can choose one of the following three options to provide your WiFi credentials:
+// You can choose one of the following three options to provide your Wi-Fi credentials:
 //
 // [Option 1]: Pass the SSID and password directly as arguments from your main .ino file.
 // WIFI_BEGIN("SSID", "PASSWORD");
@@ -45,8 +45,8 @@ THE SOFTWARE.
 //
 // [Option 3]: Include the credentials file (recommended for safety and clarity).
 // Make sure to run set_wifi.py to generate this file first.
-// Uncomment the following two line:
-#include "credentials.h"
+// Uncomment the following line:
+// #include "credentials.h"
 
 #define WIFI_LOG_BUFFER_SIZE 256
 extern char g_wifi_log_buffer[WIFI_LOG_BUFFER_SIZE];
